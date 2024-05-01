@@ -1,0 +1,446 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: auto;
+    box-shadow: 0 0 2px black;
+    opacity: 0.9;
+   
+    .logo-nav{
+        color: white;
+        display: flex;
+        font-size: 13px;
+        padding-inline-start: 80px;
+        padding-top: 10px;
+
+        span{
+            color:  rgb(220,20,60);
+        }
+    }
+}
+
+.home-nav{
+    display: flex;
+    padding-inline-start: 600px;
+    padding-top: 5px;
+
+    a{
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+
+        :hover{
+            color: rgb(220,20,60);
+        }
+    }
+
+    .about-nav{
+        display: flex;
+        padding-inline-start: 30px;
+
+        .menu-nav{
+            display: flex;
+            padding-inline-start: 30px;
+
+            .outlet-nav{
+                display: flex;
+                padding-inline-start: 30px;
+
+                .kontak-nav{
+                    display: flex;
+                    padding-inline-start: 30px;
+
+                    .order-nav{
+                        display: flex;
+                        padding-inline-start: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.judul-everyday{
+    color: white;
+    padding-top: 30px;
+
+    span{
+        color: rgb(160, 2, 34);
+    }
+}
+
+.display-1{
+    display: flex;
+    padding-inline-start: 220px;
+    padding-top: 40px;
+
+    .display-2{
+        display: flex;
+        padding-inline-start: 40px;
+
+        .display-3{
+            display: flex;
+            padding-inline-start: 40px;
+
+            .display-4{
+                display: flex;
+                padding-inline-start: 40px;
+            }
+        }
+    }
+}
+
+.btn-menu{
+    padding-top: 45px;
+
+    button{
+        width: 25%;
+       border-style: groove;
+        background-color: black;
+        border-color: rgb(160, 2, 34);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.judul-about{
+    padding-top: 40px;
+    color: white;
+
+    span{
+        color: rgb(160, 2, 34);
+    }
+}
+
+.list-about{
+    color: white;
+    padding-top: 2px;
+}
+
+.btn-menu-learn{
+    padding-top: 30px;
+
+    button{
+        width: 25%;
+       border-style: groove;
+        background-color: black;
+        border-color: rgb(160, 2, 34);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.judul-how-ramen{
+    padding-top: 40px;
+    color: white;
+
+    span{
+        color: rgb(160, 2, 34);
+    }
+}
+
+.list-how-ramen{
+    color: white;
+    padding-top: 2px;
+}
+
+.btn-how-ramen{
+    padding-top: 26px;
+
+    button{
+        width: 25%;
+       border-style: groove;
+        background-color: black;
+        border-color: rgb(160, 2, 34);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+/* css menu */
+
+
+
+
+.menu-ramen{
+    padding-top: 100px;
+    display: flex;
+    padding-inline-start: 40px;
+
+    a{
+        color: gray;
+        text-decoration: none;
+        cursor: pointer;
+
+        :hover{
+            color: rgb(220,20,60);
+        }
+    }
+
+    .menu-appetizer{
+        display: flex;
+        padding-inline-start: 30px;
+
+        .menu-rice-burger{
+            display: flex;
+            padding-inline-start: 30px;
+
+            .menu-dessert{
+                display: flex;
+                padding-inline-start: 30px;
+
+                .menu-extras{
+                    display: flex;
+                    padding-inline-start: 30px;
+
+                    .menu-drink{
+                        display: flex;
+                        padding-inline-start: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.menu-1{
+    display: flex;
+    padding-inline-start: 60px;
+    padding-top: 60px;
+
+    .name-menu-1{
+        color: white;
+        padding-inline-start: 30px;
+
+        span{
+            color: rgb(220,20,60);
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+/* css futter start */
+
+.list-garis{
+    background-color: black;
+    border-style: groove;
+    border-color: black;
+   
+}
+.futter-toko{
+    color: white;
+    padding-top: 20px;
+
+    span{
+        color: rgb(160, 2, 34);
+    }
+    
+}
+.where-find{
+    color: white;
+}
+.instagram{
+    display: flex;
+padding-inline-start: 503px;
+padding-top: 20px;
+background-size: auto;
+
+img{
+    :hover{
+        color: #da6511;
+    }
+}
+    .whatsapp{
+        display: flex;
+        padding-inline-start: 30px;
+    }
+    .gmail{
+        padding-inline-start: 30px;
+        display: flex;
+    }
+
+    .user-join{
+        padding-inline-start: 30px;
+        display: flex;
+    }
+}
+.copyright{
+    color: rgb(150,75,0);
+    padding-top: 20px;
+}
+.titik-tepi{
+    color:black;
+}
+
+/* css futter end */
+
+
+/* css menu start */
+
+.menu-ramen{
+    padding-top: 80px;
+    display: flex;
+    padding-inline-start: 400px;
+
+    a{
+        color: gray;
+        text-decoration: none;
+        cursor: pointer;
+
+        :hover{
+            color: rgb(220,20,60);
+        }
+    }
+
+    .menu-appetizer{
+        display: flex;
+        padding-inline-start: 30px;
+
+        .menu-rice-burger{
+            display: flex;
+            padding-inline-start: 30px;
+
+            .menu-dessert{
+                display: flex;
+                padding-inline-start: 30px;
+
+                .menu-extras{
+                    display: flex;
+                    padding-inline-start: 30px;
+
+                    .menu-drink{
+                        display: flex;
+                        padding-inline-start: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.menu-1{
+    display: flex;
+    padding-inline-start: 60px;
+    padding-top: 60px;
+
+    .name-menu-1{
+        color: white;
+        padding-inline-start: 30px;
+
+        span{
+            color: rgb(220,20,60);
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+.menu-2{
+    display: flex;
+    padding-inline-start: 60px;
+    padding-top: 60px;
+
+    .name-menu-1{
+        color: white;
+        padding-inline-start: 30px;
+
+        span{
+            color: rgb(220,20,60);
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+.menu-3{
+    display: flex;
+    padding-inline-start: 60px;
+    padding-top: 60px;
+
+    .name-menu-1{
+        color: white;
+        padding-inline-start: 30px;
+
+        span{
+            color: rgb(220,20,60);
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+.menu-4{
+    display: flex;
+    padding-inline-start: 60px;
+    padding-top: 60px;
+
+    .name-menu-1{
+        color: white;
+        padding-inline-start: 30px;
+
+        span{
+            color: rgb(220,20,60);
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+.menu-5{
+    display: flex;
+    padding-inline-start: 60px;
+    padding-top: 60px;
+
+    .name-menu-1{
+        color: white;
+        padding-inline-start: 30px;
+
+        span{
+            color: rgb(220,20,60);
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
+.menu-6{
+    display: flex;
+    padding-inline-start: 60px;
+    padding-top: 60px;
+
+    .name-menu-1{
+        color: white;
+        padding-inline-start: 30px;
+
+        span{
+            color: rgb(220,20,60);
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+/* css menu end */

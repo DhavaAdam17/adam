@@ -1,0 +1,135 @@
+body{
+    background-image: url(bg\ love\ ramen.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    img{
+        opacity: 0.35;
+    }
+}
+
+.background-login{
+    background-color: black;
+    width: 500px;
+    margin-inline-start: 450px;
+    margin-top: 150px;
+    border-radius: 10px;
+    opacity: 0.7;
+
+    .judul-login{
+        color: white;
+        padding-top: 10px;
+
+        .email-login{
+            padding-top: 5px;
+
+            .input-email{
+                input{
+                    width: 320px;
+                    height: 30px;
+                    
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+.forgot-pw{
+    padding-inline-start: 290px;
+    padding-top: 20px;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+.sign{
+    margin-top: 20px;
+
+    button{
+      width: 70%;
+        cursor: pointer;
+        border: none;
+        background-color:  rgb(220,20,60);
+        color: white;
+    }
+}
+
+.bg-nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: auto;
+    box-shadow: 0 0 2px black;
+    opacity: 0.9;
+   
+    .logo-nav{
+        color: white;
+        display: flex;
+        font-size: 13px;
+        padding-inline-start: 80px;
+        padding-top: 10px;
+
+        span{
+            color:  rgb(220,20,60);
+        }
+    }
+}
+
+/* css forgot password */
+
+.background-login{
+    background-color: black;
+    width: 500px;
+    margin-inline-start: 450px;
+    margin-top: 150px;
+    border-radius: 10px;
+    opacity: 0.7;
+
+    .judul-forgot{
+        color: white;
+        padding-top: 10px;
+
+        .email-login{
+            padding-top: 5px;
+
+            .input-email{
+                input{
+                    width: 320px;
+                    height: 30px;
+                    
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+/* responsive hp */
+
+ @media screen and (max-width:767px) {
+    .background-login{
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+
+        .input-email{
+            width: 50%;
+            height: auto;
+            flex-wrap: wrap;
+
+        }
+
+        .forgot-pw{
+            flex-wrap: wrap;
+        }
+    }
+
+    body{
+       background-size: cover;
+    }
+ }
